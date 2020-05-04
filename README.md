@@ -30,3 +30,4 @@ SkyrimPlatform поддерживает импорты/экспорты, бла�
  - **Bethesda Softworks** (игры серии TES)
  - **SKSE Team** (SKSE64)
  - **Ryan-rsm-McKenzie** (CommonLibSSE)
+ - **meh321** (Address Library for SKSE Plugins)
