@@ -33,3 +33,13 @@ printConsole(ObjectReference.from(Game.getPlayer()));
 // До: null
 // После: [object ObjectReference]
 ```
+
+# 0.3.0
+
+## Добавлено
+ - Papyrus-класс `WorldSpace` теперь доступен в SkyrimPlatform
+ - Добавлен Papyrus-класс `TESModPlatform` и функция `moveRefrToPosition`, позволяющая телепортировать ссылку в любую ячейку/мир на любые координаты
+ 
+## Исправлено
+ - latent-функции с аргументами типа Int не работали (напр. `setMotionType`)
+ - Динамическое приведение типов не работало в некоторых специфичных случаях (напр. `ObjectReference.from(Game.getForm(0x14))`)
