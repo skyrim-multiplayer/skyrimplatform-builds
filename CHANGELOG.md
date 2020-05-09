@@ -43,3 +43,9 @@ printConsole(ObjectReference.from(Game.getPlayer()));
 ## Исправлено
  - latent-функции с аргументами типа Int не работали (напр. `setMotionType`)
  - Динамическое приведение типов не работало в некоторых специфичных случаях (напр. `ObjectReference.from(Game.getForm(0x14))`)
+
+ # 0.3.1
+ 
+## Исправлено
+ - Функции из SKSE-плагинов не вызывались.
+ - `Debug.sendAnimationEvent`/`Debug.notification` не работали в локациях, которые не является городом или поселением. 
