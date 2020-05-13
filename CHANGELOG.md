@@ -61,3 +61,11 @@ printConsole(ObjectReference.from(Game.getPlayer()));
  - Краш при использовании DumpFunctions в Debug-конфигурации.
  - Внутренний цикл событий игры был перегружен.
  - Ошибка генерации CMake, связанная с кэшированием.
+
+# 0.5.0
+
+## Добавлено
+ - Компилятор Papyrus интегрирован с нашей сборочной системой.
+ - Papyrus-классы `Action`, `Activator`, `ActiveMagicEffect`, `Key`, `VoiceType`, `LocationRefType`, `EncounterZone`, `ImpactDataSet`, `AssociationType`, `Idle`, `Class`, `Projectile`, `MiscObject`, `Apparatus`, `AssociationType`, `ConstructibleObject`, `Container`, `DefaultObjectManager`, `Door`, `EncounterZone`, `Explosion`, `Furniture`, `WordOfPower`, `Hazard`, `LeveledSpell`, `Static`, `SoundCategory`, `TalkingActivator`, `TreeObject` теперь доступны в SkyrimPlatform.
+ - Добавлен enum `MotionType` для `ObjectReference.setMotionType`.
+ - Добавлен метод `once`, аналогичный методу из модуля events в NodeJS.
