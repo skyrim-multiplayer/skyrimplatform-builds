@@ -1,0 +1,64 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Установка и запуск · Skyrim Platform</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="1. Вам потребуется **[Skyrim Special Edition](https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/)**."/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Установка и запуск · Skyrim Platform"/><meta property="og:type" content="website"/><meta property="og:url" content="https://skyrim-multiplayer.skymp.io/"/><meta property="og:description" content="1. Вам потребуется **[Skyrim Special Edition](https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/)**."/><meta property="og:image" content="https://skyrim-multiplayer.skymp.io/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://skyrim-multiplayer.skymp.io/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/img/skymp.jpg"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://skyrim-multiplayer.skymp.io/blog/atom.xml" title="Skyrim Platform Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://skyrim-multiplayer.skymp.io/blog/feed.xml" title="Skyrim Platform Blog RSS Feed"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><h2 class="headerTitle">Skyrim Platform</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive siteNavItemActive"><a href="/docs/installation" target="_self">Docs</a></li><li class=""><a href="/docs/api" target="_self">API</a></li><li class=""><a href="https://discord.com/invite/vjZ4Wq6" target="_self">Discord</a></li><li class=""><a href="/blog/" target="_self">Changelog</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Getting Started</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Getting Started</h3><ul class=""><li class="navListItem navListItemActive"><a class="navItem" href="/docs/installation">Installation</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">Установка и запуск</h1></header><article><div><span><ol>
+<li>Вам потребуется <strong><a href="https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/">Skyrim Special Edition</a></strong>.</li>
+<li>Установите <strong><a href="https://skse.silverlock.org/">SKSE</a></strong> с официального сайта.</li>
+<li>Скачайте последнюю версию <strong>Skyrim Platform</strong> на <a href="https://github.com/skyrim-multiplayer/skyrimplatform-builds/releases">странице с релизами.</a>.</li>
+<li>Архив распакуйте в корень игры (каталог, содержащий <code>SkyrimSE.exe</code>). Убедитесь, что в одной папке со <code>SkyrimSE.exe</code> после распаковки лежит <code>ChakraCore.dll</code>.</li>
+<li>Для начала создания собственных модов на <strong>SkyrimPlatform</strong> см. инструкции в репозитории <strong><a href="https://github.com/skyrim-multiplayer/skyrimplatform-plugin-example">skyrimplatform-plugin-example</a></strong>.</li>
+</ol>
+</span></div></article></div><div class="docs-prevnext"></div></div></div><nav class="onPageNav"></nav></div><footer class="nav-footer" id="footer"><section class="copyright">Copyright © 2020 SkyMP</section></footer></div></body></html>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://skyrim-multiplayer.skymp.io/blog</id>
+    <title>Skyrim Platform Blog</title>
+    <updated>2020-05-21T06:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://skyrim-multiplayer.skymp.io/blog"/>
+    <subtitle>The best place to stay up-to-date with the latest Skyrim Platform news and events.</subtitle>
+    <logo>https://skyrim-multiplayer.skymp.io/undefined</logo>
+    <rights>Copyright © 2020 SkyMP</rights>
+    <entry>
+        <title type="html"><![CDATA[v0.6.0]]></title>
+        <id>https://skyrim-multiplayer.skymp.io/blog/2020/05/21/0.6.0.html</id>
+        <link href="https://skyrim-multiplayer.skymp.io/blog/2020/05/21/0.6.0.html"/>
+        <updated>2020-05-21T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="добавлено"></a><a href="#добавлено" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Добавлено</h2> <ul> <li>Функция <code>setWeaponDrawnMode</code> в Papyrus-класс <code>TESModPlatform</code></li> <li>Функция <code>getNthVtableElement</code> в Papyrus-класс <code>TESModPlatform</code></li> </ul> <h2><a class="anchor" aria-hidden="true" id="удалено"></a><a href="#удалено" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Удалено</h2> <ul> <li>Незадокументированная функция <code>writeScript</code></li> </ul> ]]></summary>
+        <author>
+            <name/>
+            <email/>
+            <uri/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[v0.5.0]]></title>
+        <id>https://skyrim-multiplayer.skymp.io/blog/2020/05/14/0.5.0.html</id>
+        <link href="https://skyrim-multiplayer.skymp.io/blog/2020/05/14/0.5.0.html"/>
+        <updated>2020-05-14T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="добавлено"></a><a href="#добавлено" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Добавлено</h2> <ul> <li><p>Компилятор Papyrus интегрирован с нашей сборочной системой.</p></li> <li><p>Теперь доступны Papyrus-классы:</p> <ul> <li><code>Action</code></li> <li><code>Activator</code></li> <li><code>ActiveMagicEffect</code></li> <li><code>Key</code></li> <li><code>VoiceType</code></li> <li><code>LocationRefType</code></li> <li><code>EncounterZone</code></li> <li><code>ImpactDataSet</code></li> <li><code>AssociationType</code></li> <li><code>Idle</code></li> <li><code>Class</code></li> <li><code>Projectile</code></li> <li><code>MiscObject</code></li> <li><code>Appa...</code></li></ul></li></ul>]]></summary>
+        <author>
+            <name/>
+            <email/>
+            <uri/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[v0.4.0]]></title>
+        <id>https://skyrim-multiplayer.skymp.io/blog/2020/05/11.0.4.0.html</id>
+        <link href="https://skyrim-multiplayer.skymp.io/blog/2020/05/11.0.4.0.html"/>
+        <updated>1970-01-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="добавлено"></a><a href="#добавлено" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Добавлено</h2> <ul> <li><code>DumpFunctions</code> теперь выводит оффсеты функций вместо адресов.</li> <li>Хук <code>sendAnimationEvent</code>.</li> <li>Документация по реализованному на текущий момент функционалу.</li> </ul> <h2><a class="anchor" aria-hidden="true" id="исправлено"></a><a href="#исправлено" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Исправлено</h2> <ul> <li>Краш при использовании <code>DumpFunctions</code> в Debug-конфигурации.</li> <li>Внутренний цикл собы...</li></ul>]]></summary>
+        <author>
+            <name/>
+            <email/>
+            <uri/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[v0.3.1]]></title>
+        <id>https://skyrim-multiplayer.skymp.io/blog/2020/05/09/0.3.1.html</id>
+        <link href="https://skyrim-multiplayer.skymp.io/blog/2020/05/09/0.3.1.html"/>
+        <updated>2020-05-09T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="исправлено"></a><a href="#исправлено" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Исправлено</h2> <ul> <li>Функции из SKSE-плагинов не вызывались.</li> <li><code>Debug.sendAnimationEvent</code>/<code>Debug.notification</code> не работали в локациях, которые не является городом или поселением.</li> </ul> ]]></summary>
+        <author>
+            <name/>
+            <email/>
+            <uri/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[v0.3.0]]></title>
+        <id>https://skyrim-multiplayer.skymp.io/blog/2020/05/08/0.3.0.html</id>
+        <link href="https://skyrim-multiplayer.skymp.io/blog/2020/05/08/0.3.0.html"/>
+        <updated>2020-05-08T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="добавлено"></a><a href="#добавлено" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Добавлено</h2> <ul> <li>Papyrus-класс <code>WorldSpace</code> теперь доступен в SkyrimPlatform</li> <li>Добавлен Papyrus-класс <code>TESModPlatform</code> и функция <code>moveRefrToPosition</code>, позволяющая телепортировать ссылку в любую ячейку/мир на любые координаты</li> </ul> <h2><a class="anchor" aria-hidden="true" id="исправлено"></a><a href="#исправлено" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Исправлено</h2> <ul> <li>latent-функции с аргумента...</li></ul>]]></summary>
+        <author>
+            <name/>
+            <email/>
+            <uri/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[v0.2.0]]></title>
+        <id>https://skyrim-multiplayer.skymp.io/blog/2020/05/05/0.2.0.html</id>
+        <link href="https://skyrim-multiplayer.skymp.io/blog/2020/05/05/0.2.0.html"/>
+        <updated>2020-05-05T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="добавлено"></a><a href="#добавлено" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Добавлено</h2> <ul> <li>Полная поддержка асинхронных функций игры (Latent Functions):</li> </ul> <pre><code class="hljs css language-typescript"><span class="hljs-keyword">await</span> Game.getPlayer().setPosition(<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,<span class="hljs-number">0</span>); <span class="hljs-keyword">await</span> Utility.wait(<span class="hljs-number">1</span>); <span class="hljs-keyword">await</span> Utility.waitMenuMode(<span class="hljs-number">1</span>); </code></pre> <p>Обновите также <code>skyrimplatform-plugin-example</code>, чтобы получить новый <code>skyrimPlatf...</code></p>]]></summary>
+        <author>
+            <name/>
+            <email/>
+            <uri/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[v0.1.2 - Fix]]></title>
+        <id>https://skyrim-multiplayer.skymp.io/blog/2020/05/04/0.1.2.html</id>
+        <link href="https://skyrim-multiplayer.skymp.io/blog/2020/05/04/0.1.2.html"/>
+        <updated>2020-05-04T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>Вызов многих нативных функций приводил к крашу игры или неправильному результату. Эта проблема была решена в этом обновлении.</p> ]]></summary>
+        <author>
+            <name/>
+            <email/>
+            <uri/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[v0.1.1 - Hotfix]]></title>
+        <id>https://skyrim-multiplayer.skymp.io/blog/2020/05/04/0.1.1.html</id>
+        <link href="https://skyrim-multiplayer.skymp.io/blog/2020/05/04/0.1.1.html"/>
+        <updated>2020-05-04T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>Hotfix функций <code>getPositionX</code>, <code>getPositionY</code>, <code>getPositionZ</code>, возвращавших неправильные значения.</p> ]]></summary>
+        <author>
+            <name/>
+            <email/>
+            <uri/>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[v0.1.0 - Первая Alpha-версия]]></title>
+        <id>https://skyrim-multiplayer.skymp.io/blog/2020/05/04/0.1.0.html</id>
+        <link href="https://skyrim-multiplayer.skymp.io/blog/2020/05/04/0.1.0.html"/>
+        <updated>2020-05-04T06:00:00.000Z</updated>
+        <author>
+            <name/>
+            <email/>
+            <uri/>
+        </author>
+    </entry>
+</feed>
