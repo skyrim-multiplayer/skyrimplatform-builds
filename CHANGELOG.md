@@ -69,3 +69,12 @@ printConsole(ObjectReference.from(Game.getPlayer()));
  - Papyrus-классы `Action`, `Activator`, `ActiveMagicEffect`, `Key`, `VoiceType`, `LocationRefType`, `EncounterZone`, `ImpactDataSet`, `AssociationType`, `Idle`, `Class`, `Projectile`, `MiscObject`, `Apparatus`, `AssociationType`, `ConstructibleObject`, `Container`, `DefaultObjectManager`, `Door`, `EncounterZone`, `Explosion`, `Furniture`, `WordOfPower`, `Hazard`, `LeveledSpell`, `Static`, `SoundCategory`, `TalkingActivator`, `TreeObject` теперь доступны в SkyrimPlatform.
  - Добавлен enum `MotionType` для `ObjectReference.setMotionType`.
  - Добавлен метод `once`, аналогичный методу из модуля events в NodeJS.
+
+# 0.6.0
+
+## Добавлено
+ - Функция `setWeaponDrawnMode` в Papyrus-класс `TESModPlatform`
+ - Функция `getNthVtableElement` в Papyrus-класс `TESModPlatform`
+
+## Удалено
+ - Незадокументированная функция `writeScript`
