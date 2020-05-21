@@ -16,7 +16,7 @@ const siteConfig = {
   title: "Skyrim Platform", // Title for your website.
   tagline:
     "Разрабатывай моды для TES V: Skyrim (SE) на TypeScript с новыми возможностями!",
-  url: "platform.skymp.io", // Your website URL
+  url: "https://skyrim-multiplayer.skymp.io", // Your website URL
   baseUrl: "/", // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
@@ -24,7 +24,7 @@ const siteConfig = {
 
   // Used for publishing and more
   projectName: "Skyrim Platform",
-  organizationName: "SkyMP",
+  organizationName: "skyrim-multiplayer",
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
