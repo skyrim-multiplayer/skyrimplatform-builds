@@ -78,3 +78,31 @@ printConsole(ObjectReference.from(Game.getPlayer()));
 
 ## Удалено
  - Незадокументированная функция `writeScript`
+
+# 0.7.0
+
+## Добавлено
+ - CMake: возможность использовать integrate-vcpkg извне.
+ - CMake: аргумент ADDITIONAL_INCLUDE_DIRS в integrate_vcpkg.
+ - Codegen: улучшение юзабилити.
+ - API консольных команд.
+ - Публикация skyrimPlatform.ts с бинарными файлами платформы.
+ - Встроен plugin-example.
+ - Опубликован пример плагина с дистрибутивом Skyrim-платформы.
+ - API HttpClient.
+ - Система тестирования на основе chai.
+ - Лучшее сообщение при unhandled promise rejection.
+ - Поддержка игровых событий, таких как `effectStart`, `effectFinish`, `magicEffectApply`, `equip`, `unequip`, `hit`, `containerChanged`, `deathStart`, `deathEnd`,  `loadGame`, `combatState`, `reset`, `scriptInit`, `trackedStats`, `uniqueIdChange`, `switchRaceComplete`, `cellFullyLoaded`, `grabRelease`, `lockChanged`, `moveAttachDetach`, `objectLoaded`, `waitStop`, `activate`.
+ - Функция `isPlayerRunningEnabled` в Papyrus-класс `TESModPlatform`.
+ - Биндинги для работы с сетью.
+ - LoadGame API для создания и загрузки временных файлов сохранения.
+ 
+## Исправлено
+ - Ошибка, при которой игра не запускалась при сборке с VS2017.
+ - Ошибка, связанная с std::option при сборке с VS2017.
+ - ES6 Modules: нативный экспорт не добавляется в модули при указании абсолютного пути.
+ - getFormID возвращает отрицательное число для форм с идентификатором 0xff000000 и выше.
+ - Все события включая `update` не работают после загрузки сохранения.
+ - getFormEx для форм с идентификатором 0xff000000 и выше.
+ - Процесс с именем SkyrimSE.exe остается незавершенным при закрытии игры.
+ - Переопределены нерабочие функции сценариев addItem и removeItem.
